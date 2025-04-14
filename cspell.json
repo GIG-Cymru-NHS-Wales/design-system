@@ -4,8 +4,11 @@
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [
+        "checkmarks",
         "fieldsets",
-        "scannability"
+        "scannability",
+        "sparkline",
+        "sparklines"
     ],
     "ignoreWords": [],
     "import": []

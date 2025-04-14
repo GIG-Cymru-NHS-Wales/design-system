@@ -12,7 +12,14 @@ content access and improving navigation on both desktop and mobile interfaces.
 
 ## Alert
 
-TODO
+An alert is a UI/UX component designed to capture the user's attention and
+convey important information, such as warnings, errors, confirmations, or status
+updates. Typically displayed as a small modal or banner, alerts interrupt the
+user's workflow to ensure visibility and often require acknowledgment through an
+action like clicking “OK” or “Dismiss.” They are commonly used for critical
+feedback or decision points—such as confirming deletion or notifying of failed
+actions—and should be clear, concise, and appropriately styled (e.g.,
+color-coded for severity) to avoid confusion or unnecessary disruption.
 
 ## action-link
 
@@ -43,11 +50,25 @@ more seamless and controlled.
 
 ## Badge
 
-TODO
+A badge is a small UI/UX component typically used to display dynamic status
+information, counts, or indicators in a compact, visually prominent format.
+Commonly seen as a colored circle or label attached to icons, buttons, or list
+items, badges are often used to show unread messages, notification counts, or
+activity statuses. They help draw attention to specific elements without
+interrupting the user experience. Effective badge design ensures high visibility
+through contrast and placement, while keeping content minimal—usually numbers,
+short text, or symbols—to quickly convey information at a glance.
 
 ## Banner
 
-TODO
+A banner is a prominent UI/UX component used to display important messages,
+updates, or calls to action at the top or bottom of an interface. Often spanning
+the full width of the screen, banners are designed to catch the user's attention
+without fully interrupting their experience. They are commonly used for
+announcements, cookie consent, warnings, promotions, or system alerts. Banners
+may be persistent or dismissible, depending on the message’s importance. Good
+banner design ensures high visibility, concise messaging, and clear actions—like
+buttons or links—so users can quickly understand and respond if needed.
 
 ## Beach ball
 
@@ -98,11 +119,27 @@ contributing to a more organized and user-friendly experience.
 
 ## Call to action (CTA)
 
-TODO
+A call to action (CTA) is a UI/UX component designed to prompt users to take a
+specific action, such as clicking a button, submitting a form, or making a
+purchase. CTAs are typically clear, concise, and visually distinct, often using
+contrasting colors, bold text, or icons to stand out and guide users towards the
+next step. They play a crucial role in driving user engagement and conversions
+by directing attention to key actions within an interface, such as "Sign Up,"
+"Learn More," or "Buy Now." A well-designed CTA balances visibility with
+clarity, ensuring users understand the action they need to take and are
+motivated to act.
 
 ## Caption
 
-TODO
+A caption is a UI/UX component used to provide supplementary text or
+explanations alongside images, videos, charts, or other media within an
+interface. It typically appears below or near the media element, offering
+context, descriptions, or additional details to enhance user understanding.
+Captions are often used in galleries, product pages, or educational content to
+clarify or add value to visual elements. Effective caption design ensures
+readability through appropriate font size, contrast, and concise wording,
+helping users interpret the media more easily without overwhelming the main
+content.
 
 ## Card
 
@@ -118,7 +155,14 @@ understand information at a glance.
 
 ## Character counter
 
-TODO
+A character counter is a UI/UX component that displays the number of characters
+a user has typed into an input field, often alongside or beneath the field
+itself. It’s commonly used in text inputs with character limits—such as tweets,
+SMS messages, form fields, or bios—to help users stay within constraints.
+Character counters can show remaining characters, total characters used, or
+both, and often update dynamically as the user types. When well-designed, this
+component improves usability by providing clear, real-time feedback, preventing
+errors, and reducing user frustration related to input limits.
 
 ## Checkbox
 
@@ -133,7 +177,14 @@ and ensuring that selections are easy to understand, modify, and submit.
 
 ## Checklist
 
-TODO
+A checklist is a UI/UX component that allows users to track and manage tasks,
+options, or steps by marking items as completed or pending. Typically displayed
+as a list of actionable items, each with a checkbox that users can tick off as
+they progress. Checklists are commonly used in to-do lists, forms, or onboarding
+processes, providing a clear and interactive way to guide users through
+sequential actions. Well-designed checklists offer visual feedback, such as
+checkmarks or color changes, to indicate progress and ensure that users can
+easily follow and manage their tasks in a structured, organized manner.
 
 ## Date picker
 
@@ -149,29 +200,86 @@ or event planning.
 
 ## Details
 
-TODO
+A details UI/UX component is used to reveal or hide additional information on
+demand, allowing interfaces to remain clean and uncluttered while still offering
+in-depth content when needed. Commonly implemented as collapsible sections or
+expandable panels, the details component lets users control the visibility of
+secondary content such as explanations, specifications, FAQs, or advanced
+options. It enhances usability by supporting progressive disclosure—showing only
+what’s necessary upfront and letting users access more as desired. Effective
+details components are clearly labeled, easy to toggle, and designed to maintain
+context, ensuring a smooth and intuitive user experience.
 
 ## Dial
 
-TODO
+A dial is a circular UI/UX component that allows users to adjust or view a value
+by rotating a knob or indicator along a fixed range, similar to physical dials
+on devices like thermostats or volume controls. It provides an intuitive and
+tactile interaction, often used in applications involving precision settings,
+such as audio levels, timers, or control panels. Dials can also serve as visual
+indicators of current values, making them useful for monitoring data in a
+compact, stylish format. Effective dial design combines smooth interaction,
+clear labeling, and visual feedback to ensure accuracy and ease of use.
 
-## Dialog box
+## Dialog
 
-TODO
+A dialog is a UI/UX component used to communicate information to users or prompt
+them to take an action within an application. Typically appearing as a small
+window overlaying the main interface, dialogs can be modal (requiring user
+interaction before proceeding) or non-modal (allowing interaction with the
+background). They serve purposes like confirmations, alerts, input requests, or
+settings adjustments. Good dialog design ensures clarity, minimal disruption,
+and clear call-to-action buttons (e.g., "OK", "Cancel") to guide users smoothly
+through tasks or decisions.
 
 ## Do/don't list
 
-TODO NHS English
+A do/don't list is a UI/UX component designed to guide users by clearly
+outlining actions that should or should not be taken in a given context. It
+typically presents two distinct columns or sections, one for recommended
+behaviors (do's) and another for discouraged or incorrect behaviors (don'ts).
+This component is often used in instructional, onboarding, or error prevention
+contexts to help users quickly understand best practices, avoid mistakes, or
+follow guidelines effectively. Well-designed do/don't lists use concise
+language, clear visuals or icons, and easy-to-read layouts, ensuring that users
+can easily grasp the key points without confusion or overwhelm.
 
 ## Donut chart
 
+A donut chart is a UI/UX component similar to a pie chart but with a circular
+hole in the middle, creating a "donut" shape. It is used to represent
+proportional data, with each segment of the chart illustrating a category's
+contribution to the whole. Donut charts are effective for displaying parts of a
+whole, such as market share, resource distribution, or percentage breakdowns.
+The central hole can also be used to display a total value or additional
+information, enhancing the chart's functionality. With its clean and visually
+appealing design, the donut chart is often favored for dashboards or data
+visualizations, offering clear, intuitive insights with the added benefit of a
+modern aesthetic.
+
 ## Dropdown menu
 
-TODO
+A dropdown menu is a UI/UX component that allows users to select an option from
+a list that appears when they click or hover over a designated menu button or
+area. Typically used to save space, dropdown menus are ideal for displaying
+multiple choices or actions within a compact interface. They can contain a
+variety of items, such as navigation links, settings, or actions, and often
+feature hierarchical submenus for additional options. A well-designed dropdown
+menu offers smooth interaction, clear labeling, and easy navigation, ensuring
+users can quickly find and select the desired option without confusion or
+frustration.
 
 ## Emoji
 
-TODO
+An emoji is a UI/UX component used to express emotions, reactions, or concepts
+through small, universally recognizable pictorial symbols. Emojis are often
+integrated into messaging systems, social media platforms, and interactive
+interfaces, allowing users to quickly communicate tone, mood, or context in a
+fun and visually engaging way. They can be selected from an emoji picker or
+keyboard and are commonly used to enhance user interactions, add personality,
+and increase engagement in digital communication. Well-designed emoji
+integration ensures accessibility, offers a diverse range of options for
+expression, and maintains clarity across different devices and platforms.
 
 ## Error message
 
@@ -213,7 +321,14 @@ accessibility across devices and platforms.
 
 ## Flair
 
-TODO
+A flair is a small UI/UX component used to add visual emphasis, personality, or
+categorization to elements within an interface, often in the form of colorful
+tags, icons, or labels. Commonly seen in forums, social platforms, or
+dashboards, flair can indicate user roles, content types, statuses, or personal
+expression (e.g., a badge showing "Moderator" or a tag like "Urgent"). It helps
+users quickly identify context or add a touch of individuality to their profiles
+or posts. Well-designed flair is subtle yet noticeable, using consistent styling
+and color coding to enhance usability without overwhelming the interface.
 
 ## Footer
 
@@ -228,11 +343,26 @@ on long or content-rich pages.
 
 ## Footnote
 
-TODO
+A footnote is a UI/UX component used to provide additional information,
+citations, or clarifications without cluttering the main content. Typically
+displayed at the bottom of a page, section, or element, footnotes offer context,
+references, or explanations that support the primary content. In digital
+interfaces, footnotes are often linked or numbered, allowing users to easily
+navigate between the main text and supplementary details. Effective footnote
+design ensures that the extra information is easily accessible yet unobtrusive,
+helping to maintain the flow of content while providing valuable insights or
+references when needed.
 
-# Gauge
+## Gauge
 
-TODO
+A gauge is a UI/UX component used to visually represent a value within a defined
+range, often resembling a dial or meter. It’s commonly used in dashboards or
+monitoring tools to display metrics like speed, progress, temperature, or system
+performance at a glance. Gauges provide an intuitive way to understand data
+trends and thresholds, often incorporating color coding (e.g., green for safe,
+red for critical) and markers to indicate ideal or warning levels. When designed
+well, a gauge offers immediate visual feedback, helping users quickly assess
+status without needing to interpret raw data.
 
 ## Hamburger menu
 
@@ -258,7 +388,15 @@ throughout the user experience.
 
 ## Hint
 
-TODO NHS England
+A hint is a UI/UX component that provides subtle, contextual guidance or
+suggestions to help users understand how to interact with an element or complete
+a task. Often displayed as placeholder text, tooltips, or inline messages near
+input fields or buttons, hints aim to reduce confusion and improve usability
+without interrupting the user flow. They can clarify expected formats, explain
+functionality, or offer examples, especially in forms or complex interfaces. A
+well-crafted hint is concise, timely, and easy to dismiss or ignore once
+understood, ensuring it supports the user experience without becoming a
+distraction.
 
 ## Holy Grail layout
 
@@ -272,21 +410,37 @@ readability and functionality. The Holy Grail layout is particularly effective
 for desktop interfaces, providing clear structure and easy access to key
 elements while maintaining a cohesive, user-friendly experience.
 
+## Icon
+
+An icon is a compact and visually intuitive UI/UX component that represents
+actions, objects, or concepts using simplified graphical symbols. Icons enhance
+usability by providing quick visual cues that help users navigate interfaces,
+identify functions, or understand information without relying on text alone.
+Commonly used in buttons, menus, and toolbars, icons can improve interface
+clarity and save space, especially in mobile or minimalist designs. Effective
+icon design prioritizes clarity, consistency, and recognizability, often
+accompanied by labels or tooltips to ensure accessibility and prevent ambiguity,
+especially for new or less familiar symbols.
+
 ## Image
 
-TODO
+An image is a fundamental UI/UX component used to display visual content, such
+as photographs, illustrations, or icons, within an interface. Images enhance
+user experience by providing visual context, supporting storytelling, or
+reinforcing brand identity. They are commonly used in product galleries, blogs,
+advertisements, and content-heavy websites. Effective image design ensures
+optimal sizing, clarity, and responsiveness across different devices, as well as
+proper loading techniques to avoid performance issues. When integrated well,
+images can improve user engagement, guide attention, and contribute to a more
+visually appealing and intuitive interface.
 
 ## Input
 
-TOOD
+TODO
 
 ## Inset text
 
 TODO NHS England
-
-## Knob
-
-TODO
 
 ## Label
 
@@ -302,11 +456,27 @@ experience, ensuring that users can navigate and fill out forms with ease.
 
 ## Line chart
 
-TODO
+A line chart is a UI/UX component used to visualize data points over a
+continuous range, typically displayed as a series of connected points or lines
+along the X and Y axes. This type of chart is commonly used to track trends,
+patterns, or changes over time, making it ideal for displaying time-series data,
+such as stock prices, website traffic, or performance metrics. Line charts
+provide users with a clear, intuitive way to compare multiple data sets or
+monitor fluctuations, helping them easily identify upward or downward trends.
+Effective line chart design includes smooth lines, clear axis labels, and proper
+scaling to ensure accurate interpretation of the data.
 
 ## Notification
 
-TODO
+A notification is a UI/UX component used to deliver timely, non-intrusive
+messages to users about events, updates, or actions within an application.
+Unlike alerts, notifications are usually passive and do not interrupt the user’s
+workflow—they often appear as banners, toasts, or badges in a corner of the
+interface or notification center. Notifications can inform users about new
+messages, background processes, or system statuses and may disappear
+automatically or allow manual dismissal. Effective notification design balances
+visibility and subtlety, ensuring users stay informed without feeling
+overwhelmed or distracted.
 
 ## Pagination
 
@@ -334,15 +504,38 @@ information more efficiently.
 
 ## Pie chart
 
-TODO
+A pie chart is a UI/UX component used to visually represent data as a circular
+graph, divided into slices to illustrate proportions or percentages of a whole.
+Each slice of the pie chart corresponds to a category, and its size is
+proportional to the category’s value relative to the total. Pie charts are
+effective for displaying simple, comparative data in an easily digestible
+format, often used in dashboards or reports. A well-designed pie chart ensures
+clarity by using distinct colors, labels, and legends, allowing users to quickly
+interpret the distribution of values and grasp the key insights at a glance.
 
 ## Popover
 
-TODO
+A popover is a UI/UX component that displays contextual information or actions
+in a small overlay that appears near the element that triggered it, such as a
+button, icon, or link. Unlike tooltips, popovers can contain richer content—like
+text, images, buttons, or form fields—and often require user interaction to
+dismiss. They are commonly used to provide quick access to related tools or
+details without navigating away from the current page. Effective popover design
+ensures it is clearly connected to its trigger, positioned intuitively, and easy
+to close, enhancing the user experience by offering relevant information or
+actions without disrupting workflow.
 
 ## Popup
 
-TODO
+A popup is a UI/UX component that temporarily appears over the main content to
+convey information, prompt user actions, or display additional options without
+navigating away from the current screen. Popups can take various forms—such as
+tooltips, modals, or contextual menus—and are often triggered by user
+interactions like clicks, hovers, or page events. They are useful for drawing
+attention to specific elements, providing quick feedback, or offering
+supplementary details. Effective popup design focuses on timing, relevance, and
+minimal disruption, ensuring users receive the necessary information or controls
+without feeling overwhelmed or interrupted.
 
 ## Radio button
 
@@ -368,9 +561,29 @@ problem that needs immediate attention. RAG indicators enhance usability by
 delivering quick, intuitive feedback through universally understood colors,
 enabling users to assess situations rapidly and prioritize actions effectively.
 
+## Scatter plot
+
+A scatter plot is a UI/UX component used to display data points on a
+two-dimensional graph, with each point representing a pair of values along the X
+and Y axes. It is particularly useful for visualizing the relationship or
+correlation between two variables, helping users identify trends, clusters, or
+outliers in large data sets. Scatter plots are often used in data analysis and
+statistical tools, allowing users to quickly grasp patterns or insights through
+the distribution and positioning of the points. Effective design of scatter
+plots includes clear axis labels, appropriate scaling, and optional data point
+highlights to enhance readability and interpretation.
+
 ## Scrollbar
 
-TODO
+A scrollbar is a UI/UX component that allows users to navigate vertically or
+horizontally through content that extends beyond the visible area of a container
+or screen. It typically appears as a bar along the side or bottom of a
+scrollable region, with a draggable thumb (or handle) that represents the user's
+current view relative to the total content. A scrollbar provides a user with
+both control and context, showing how much content is available and where they
+are within it. A well-designed scrollbar is responsive, unobtrusive, and
+visually aligned with the overall interface, ensuring smooth navigation without
+distracting from the main content.
 
 ## Select
 
@@ -400,19 +613,51 @@ easy access to extended functionality.
 
 ## Slider
 
-TODO
+A slider is a UI/UX component that allows users to select a value or range of
+values by dragging a handle along a track, typically used for adjusting settings
+like volume, brightness, price ranges, or timelines. It provides an intuitive
+and interactive way to input data within a defined minimum and maximum, often
+displaying real-time feedback as the user moves the slider. Sliders can be
+horizontal or vertical and may include labels, tick marks, or numeric indicators
+for clarity. Effective slider design ensures smooth handling, visual
+responsiveness, and accessibility, enabling precise adjustments while keeping
+the interface clean and user-friendly.
 
-## Sparklines
+## Sparkline
 
-TODO
+A sparkline is a compact, minimalist UI/UX component used to represent trends or
+variations in data within a small, simple graph, typically embedded within text
+or tables. Unlike full-scale charts, sparklines display data as tiny, unadorned
+line, bar, or win/loss charts, offering a quick, at-a-glance view of patterns,
+such as fluctuations in sales, stock prices, or performance over time. They are
+particularly useful in dashboards or reports where space is limited but quick
+data insights are needed. Sparklines are designed to convey trends without
+detailed context or axes, focusing purely on the visual representation of data
+movement or distribution.
 
 ## Spinner
 
-TODO
+A spinner is a UI/UX component used to indicate that a process or action is
+currently in progress, typically involving loading, submitting, or fetching
+data. It often appears as a rotating icon or animated graphic, signaling to
+users that they need to wait momentarily. Spinners help manage user expectations
+and improve perceived performance by providing visual feedback during delays.
+While they don’t convey exact timing, they reassure users that the system is
+working. A well-designed spinner is subtle, visually consistent with the
+interface, and ideally accompanied by a message or progress indicator if the
+wait is expected to be long.
 
-## Summary-list
+## Summary list
 
-TODO NHS England
+A summary list is a UI/UX component that presents a concise overview of key
+information or data points, typically in a structured, easy-to-scan format. It
+is often used to summarize important details, such as transaction history,
+product features, or settings preferences, in a list-style layout. Each item in
+the summary list usually includes a brief description or value, helping users
+quickly grasp essential information without being overwhelmed by excessive
+detail. A well-designed summary list focuses on clarity, using clear labels,
+concise text, and consistent formatting to enhance readability and ensure that
+users can easily find the most relevant information at a glance.
 
 ## Tab
 
@@ -450,9 +695,17 @@ orientation, reducing cognitive load, and enabling faster information retrieval.
 It’s often presented as a sidebar, dropdown, or sticky element that stays
 visible as users scroll through the content.
 
-## Task-list
+## Task list
 
-TODO NHS England
+A task list is a UI/UX component that organizes and displays a series of tasks,
+actions, or to-dos for users to complete. It is typically presented as a
+checklist, where each task can be marked as completed or remain pending. Task
+lists are commonly used in project management tools, to-do apps, or onboarding
+processes to guide users through a sequence of actions. They help improve
+productivity by breaking down complex workflows into manageable steps, offering
+clear progress tracking. Effective task list design includes features like task
+prioritization, due dates, and visual indicators (such as checkboxes or progress
+bars) to enhance user clarity and motivation.
 
 ## Textarea
 
@@ -490,7 +743,15 @@ making it easy for users to set appointments, reminders, or deadlines.
 
 ## Timeline
 
-TODO
+A timeline is a UI/UX component used to visually organize and display events,
+steps, or data points in chronological order, helping users understand
+progression over time. Commonly used in project tracking, activity feeds,
+historical overviews, or user journeys, timelines can be vertical, horizontal,
+or interactive, often incorporating icons, dates, and brief descriptions for
+clarity. This component aids comprehension by making complex sequences more
+intuitive and scannable. Effective timeline design emphasizes readability,
+logical flow, and visual hierarchy, allowing users to quickly grasp the order,
+timing, and significance of events or stages.
 
 ## Tree menu
 
@@ -515,10 +776,14 @@ target element and disappear when the interaction ends. Tooltips enhance
 usability by guiding users subtly and efficiently, especially in interfaces
 where space is limited or where actions may not be immediately self-explanatory.
 
-## Wall
+## Warning callout
 
-TODO
-
-## Warning-callout
-
-TODO NHS England
+A warning callout is a UI/UX component used to draw attention to important
+alerts or potential issues that require user attention or caution. Typically
+styled with bold colors like yellow or orange, and accompanied by an icon (e.g.,
+an exclamation mark), it is used to highlight warnings, errors, or critical
+information that could affect the user's experience or actions. Warning callouts
+are often placed prominently within the interface to ensure they are noticed,
+and they may include additional text or links to help users understand the issue
+or take corrective actions. A well-designed warning callout ensures clarity
+without overwhelming the user, guiding them toward the necessary next steps.
