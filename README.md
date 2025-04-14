@@ -4,6 +4,8 @@ A design system is a collection of reusable components, guidelines, and best pra
 
 A design system includes both visual and code-based elements that ensure a unified user experience across different platforms and applications:
 
+## Design System Concepts
+
 * **Style guide** – colours, typography, spacing and layout, icons, imagery, and branding. 
 
 * **Component library** – individual components (building blocks) such as buttons, forms, input fields, navigation bars, tooltips, etc.
@@ -38,5 +40,10 @@ A design system is essential for digital products and services because it ensure
 
 ## Risks
 
-The lack of a design system can lead to inconsistent user experiences, design and technical debt, challenges with maintaining and scaling products and services, gaps in communication between designers and developers, duplicated effort and cost in design and development work, and delays in getting new products, services and features into the hands of users.
- 
+The lack of a design system can lead to inconsistent user experiences, design and technical debt, challenges with maintaining and scaling products and services, gaps in communication between designers and developers, duplicated effort and cost in design and development work, and delays in getting new products, services and features into the hands of users. 
+
+## Resources
+
+* [Components: a brief introduction](doc/components/)
+
+* [Gov Design Systems: A list of design systems and design resources that government departments have created](https://github.com/ctdesign/gov-design-systems-list)
