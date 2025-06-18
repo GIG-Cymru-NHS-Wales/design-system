@@ -1,72 +1,159 @@
-<!-- Use this page as the index for your project -->
+<html lang="en">
 
-<!-- ADDING CUSTOM CSS - Add your custom CSS or Sass in /app/assets/sass/main.scss -->
+{% include "includes/head.html" %}
 
-<!-- Extends the layout from /app/views/layout.html -->
-{% extends 'layout.html' %}
-<!--
-  In /app/views/layout.html you can:
-    - change the header and footer
-    - add custom CSS and JavaScript
--->
+<body class="js-enabled">
 
-<!-- Set the page title -->
-{% block pageTitle %}
-  {{ serviceName }}
-{% endblock %}
+  {% include "includes/header.html" %}
 
-<!-- For adding a breadcrumb or back link -->
-<!-- Code examples can be found at https://service-manual.nhs.uk/design-system/components/breadcrumbs and https://service-manual.nhs.uk/design-system/components/back-link -->
-{% block beforeContent %}
-{% endblock %}
+  <main id="maincontent" role="main">
 
-<!-- For adding page content -->
-<!-- Page layout code can be found at https://service-manual.nhs.uk/design-system/styles/layout -->
-{% block content %}
-  <div class="nhsuk-grid-row">
-    <div class="nhsuk-grid-column-two-thirds">
+    <section class="nhsuk-hero">
+      <div class="nhsuk-width-container nhsuk-hero--border app-width-container">
+        <div class="nhsuk-grid-row">
+          <div class="nhsuk-grid-column-two-thirds">
+            <div class="nhsuk-hero__wrapper app-hero__wrapper" style="padding-top: 40px;">
+              <h1 class="nhsuk-u-margin-bottom-4">Building digital services for the NHS Wales. </h1>
+              <p class="nhsuk-body-l nhsuk-u-margin-bottom-1">NHS Wales has adopted the NHS Service Manual and Design System to design and build digital services in Wales. <br>The NHS Wales Design System incorporates additional design requirements specific to NHS Wales to design and build consistent and usable digital services that put Welsh people first.</p>
+            </div>
+          </div>
+          <!-- WHAT'S NEW
+          <div class="nhsuk-grid-column-one-third app-latest-update">
+            <div class="nhsuk-card app-card--transparent nhsuk-u-margin-bottom-0 nhsuk-u-margin-top-0">
+              <div class="nhsuk-card__content">
+                <h2 class="nhsuk-card__heading nhsuk-heading-m"><a href="/whats-new">What's new</a></h2>
+                <p>Updated <a href="/design-system/components/buttons#secondary-button">secondary button styling</a> and button guidance.</p>
+              </div>
+            </div>
+          </div>
+          -->
+        </div>
+      </div>
+    </section>
 
-      <!-- You can delete the lines below -->
-      <h2 class="nhsuk-heading-l">
-        NHS prototype kit
-        <span class="nhsuk-caption-xl nhsuk-caption--bottom">Version {{version}}</span>
-      </h2>
-      <hr>
+    <section class="nhsuk-section" style="padding-top: 40px;">
+
+      <div class="nhsuk-width-container app-width-container">
+
+        <ul class="nhsuk-grid-column-one-third nhsuk-card-group" style="margin-bottom: 20px">
+          <!-- WARNING
+          <li class="nhsuk-grid-column-full nhsuk-card-group__item">
+            <div class="nhsuk-card nhsuk-card--clickable">
+              <div class="nhsuk-card__content">
+                <strong class="nhsuk-tag nhsuk-u-margin-bottom-0 nhsuk-u-margin-right-3">
+                  WCAG 2.2
+                </strong>
+                <h2 class="nhsuk-card__heading nhsuk-heading-xs nhsuk-u-margin-bottom-0 nhsuk-u-display-inline-block nhsuk-u-font-weight-normal"><a href="/accessibility/new-criteria-in-wcag-2-2">Check your service meets the new accessibility requirements</a></h2>
+              </div>
+            </div>
+          </li>
+          -->
+
+          <li class="nhsuk-grid-column-full nhsuk-card-group__item" style="padding-left: 0px;padding-right: 0px;">
+            <div class="nhsuk-card" style="background-color: #E4E4E4;height: 440px;">
+              <div class="nhsuk-card__content">
+                <h3 class="nhsuk-card__heading"><a href="https://service-manual.nhs.uk" style="color: #005eb8;">NHS Digital Service Manual</a></h3>
+                <p class="nhsuk-card__description">
+                  <a href="https://service-manual.nhs.uk/design-system" target="blank" style="color: #005eb8;">Design system</a> 
+                  <br>
+                  <a href="https://service-manual.nhs.uk/content" target="blank" style="color: #005eb8;">Content guide</a> 
+                  <br>
+                  <a href="https://service-manual.nhs.uk/accessibility" target="blank" style="color: #005eb8;">Accesibility</a> 
+                  <br>
+                  <a href="https://service-manual.nhs.uk/design-system/design-principles" target="blank" style="color: #005eb8;">Design principles</a>
+                  <br>
+                  <a href="https://service-manual.nhs.uk/standards-and-technology" target="blank" style="color: #005eb8;">Standards and technology</a>
+                  <br>
+                  <a href="https://service-manual.nhs.uk/community-and-contribution" target="blank" style="color: #005eb8;">Community and contribution</a> 
+                </p>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="nhsuk-grid-column-two-thirds nhsuk-card-group">
+
+          <li class="nhsuk-grid-column-one-half nhsuk-card-group__item" style="padding-right: 0px;">
+            <div class="nhsuk-card" style="margin-bottom: 16px;">
+              <div class="nhsuk-card__content">
+                <h3 class="nhsuk-card__heading"><a href="components" style="color: #005eb8;">Components</a></h3>
+                <p class="nhsuk-card__description">
+                  <a href="components-header" style="color: #005eb8;">Header</a>
+                  <br>
+                  <a href="components-body" style="color: #005eb8;">Body</a> &nbsp;<strong class="nhsuk-tag">WIP</strong>
+                  <br>
+                  <a href="components-footer" style="color: #005eb8;">Footer</a>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="nhsuk-grid-column-one-half nhsuk-card-group__item" style="padding-right: 0px;">
+            <div class="nhsuk-card" style="margin-bottom: 16px;">
+              <div class="nhsuk-card__content">
+                <h3 class="nhsuk-card__heading"><a href="patterns" style="color: #005eb8;">Patterns</a></h3>
+                <p class="nhsuk-card__description">
+                  <a href="patterns-tasks" style="color: #005eb8;">Task patterns</a> &nbsp;<strong class="nhsuk-tag">WIP</strong>
+                  <br>
+                  <a href="patterns-pages" style="color: #005eb8;">Page patterns</a> &nbsp;<strong class="nhsuk-tag">WIP</strong>
+                  <br>
+                  <a href="patterns-services" style="color: #005eb8;">Service patterns</a> &nbsp;<strong class="nhsuk-tag">WIP</strong>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="nhsuk-grid-column-one-half nhsuk-card-group__item" style="padding-right: 0px;">
+            <div class="nhsuk-card" style="margin-bottom: 16px;">
+              <div class="nhsuk-card__content"> 
+                <h3 class="nhsuk-card__heading"><a href="styles" style="color: #005eb8;">Styles</a></h3>
+                <p class="nhsuk-card__description">
+                  <a href="styles-logo" style="color: #005eb8;">Logo</a>
+                  <br>
+                  <a href="styles-colour" style="color: #005eb8;">Colour palette</a>
+                  <br>
+                  <a href="styles-font" style="color: #005eb8;">Font</a>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="nhsuk-grid-column-one-half nhsuk-card-group__item" style="padding-right: 0px;">
+            <div class="nhsuk-card" style="margin-bottom: 16px;">
+              <div class="nhsuk-card__content">
+                <h3 class="nhsuk-card__heading"><a href="templates">Templates</a></h3>
+                <p class="nhsuk-card__description">
+                  <a href="templates-websites" style="color: #005eb8;">Websites</a>
+                  <br>
+                  <a href="templates-applications" style="color: #005eb8;">Applications</a> &nbsp;<strong class="nhsuk-tag">WIP</strong>
+                  <br>
+                  <a href="templates-extranets" style="color: #005eb8;">Extranets</a> &nbsp;<strong class="nhsuk-tag">WIP</strong>
+                  <br>
+                  <a href="templates-intranets" style="color: #005eb8;">Intranets</a> &nbsp;<strong class="nhsuk-tag">WIP</strong>
+                </p>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="nhsuk-grid-row">
+          <div class="nhsuk-grid-column-full">
+            <hr class="nhsuk-u-margin-top-2 nhsuk-u-margin-bottom-6">
+            <h2>Support</h2>
+            <p style="padding-bottom: 20px;">The manual is maintained by the <a href="design-system-team" style="color: #005eb8;">design system team at NHS Wales</a>. <br>If you've got a question or want to feedback, you can <a href="get-in-touch" style="color: #005eb8;">get in touch</a>.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
 
 
-      <!-- Add your content here -->
-      <!-- Styles and components can be found at https://service-manual.nhs.uk/design-system -->
+  {% include "includes/footer.html" %}
 
-      <h1 class="nhsuk-heading-xl">
-        {{ serviceName }}
-      </h1>
+  {% include "includes/template-scripts.html" %}
 
-      <p>Set the service name for your prototype by editing <strong>/app/config.js</strong>.</p>
+</body>
 
-      <p>
-        This is the index page for your prototype. You can find it at <strong>/app/views/index.html</strong>.
-      </p>
-
-      <hr>
-
-      <h2 class="nhsuk-heading-l">
-        Get started
-      </h2>
-
-      <ul class="nhsuk-list nhsuk-list--bullet">
-        <li>
-          <a href="https://prototype-kit.service-manual.nhs.uk/how-tos">NHS prototype kit guides</a> – including a tutorial
-        </li>
-        <li>
-          <a href="https://service-manual.nhs.uk/design-system">NHS digital service manual</a> – for code snippets and guidance on using NHS styles, components and patterns
-        </li>
-      </ul>
-
-      <p>
-        There is a selection of <a href="/example-templates">example page templates</a> in <strong>/lib/example-templates/</strong>. To use these, copy and paste them into <strong>/app/views/</strong>.
-      </p>
-      <!-- End of content -->
-
-    </div>
-  </div>
-{% endblock %}
+</html>

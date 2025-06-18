@@ -1,0 +1,75 @@
+<html lang="en">
+
+{% include "includes/head.html" %}
+
+<body class="js-enabled">
+
+  {% include "includes/header.html" %}
+
+  <div class="nhsuk-width-container">
+
+    <!--
+    <div class="nhsuk-back-link"> 
+      <a class="nhsuk-back-link__link" href="javascript:window.history.back();">
+        <svg class="nhsuk-icon nhsuk-icon__chevron-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" height="24" width="24">
+          <path d="M8.5 12c0-.3.1-.5.3-.7l5-5c.4-.4 1-.4 1.4 0s.4 1 0 1.4L10.9 12l4.3 4.3c.4.4.4 1 0 1.4s-1 .4-1.4 0l-5-5c-.2-.2-.3-.4-.3-.7z"></path>
+        </svg>
+        Back
+      </a>
+    </div>
+    -->
+
+    <nav class="nhsuk-breadcrumb app-breadcrumb" aria-label="Breadcrumb">
+      <ol class="nhsuk-breadcrumb__list">        
+        <li class="nhsuk-breadcrumb__item">
+          <a class="nhsuk-breadcrumb__link" href="/">Home</a>
+        </li>    
+        <!--
+        <li class="nhsuk-breadcrumb__item">
+          <a class="nhsuk-breadcrumb__link" href="templates">Templates</a>
+        </li>
+        -->
+      </ol>
+      <p class="nhsuk-breadcrumb__back">
+        <a class="nhsuk-breadcrumb__backlink" href="/">
+          <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>Home
+        </a>
+      </p>
+    </nav>
+
+    <main class="nhsuk-main-wrapper nhsuk-main-wrapper--s" id="maincontent">
+
+      <div class="nhsuk-grid-row">
+
+        <div class="nhsuk-grid-column-two-thirds app-component-reading-width">
+
+          <h1 class="nhsuk-heading-xl">Service manual team</h1>      
+
+          <p class="nhsuk-lede-text app-lede-text">The service manual team at NHS England maintains the service manual.</p>
+
+          <p>If you want to contact the team, you can <a href="/get-in-touch">get in touch via email or Slack</a>.</p>
+
+          <ul>
+            <li>Sam Martin – Senior Product Manager</li>
+            <li>Ananda Maryon – Senior Interaction Designer</li>
+            <li>Laura Driver – Senior User Researcher</li>
+            <li>Sara Wilcox – Senior Content Designer</li>
+          </ul>
+
+          <p class="nhsuk-body-s nhsuk-u-secondary-text-color nhsuk-u-margin-top-6 nhsuk-u-margin-bottom-0">Updated: February 2025</p>
+
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  {% include "includes/footer.html" %}
+
+  {% include "includes/template-scripts.html" %}
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<html lang="en">
+
+{% include "includes/head.html" %}
+
+<body class="js-enabled">
+
+  {% include "includes/header.html" %}
+
+  <div class="nhsuk-width-container app-width-container">
+
+    <nav class="nhsuk-breadcrumb app-breadcrumb" aria-label="Breadcrumb">
+      <ol class="nhsuk-breadcrumb__list">        
+        <li class="nhsuk-breadcrumb__item">
+          <a class="nhsuk-breadcrumb__link" href="/">Home</a>
+        </li>    
+        <li class="nhsuk-breadcrumb__item">
+          <a class="nhsuk-breadcrumb__link" href="templates">Templates</a>
+        </li>
+      </ol>
+      <p class="nhsuk-breadcrumb__back">
+        <a class="nhsuk-breadcrumb__backlink" href="/">
+          <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>Home
+        </a>
+      </p>
+    </nav>
+
+    <main class="nhsuk-main-wrapper nhsuk-main-wrapper--s app-main-wrapper" id="maincontent" role="main">
+
+      <div class="nhsuk-grid-row">
+
+        <div class="nhsuk-grid-column-full">
+
+          <span class="nhsuk-caption-xl">Templates
+            <span class="nhsuk-u-visually-hidden"> - </span>
+          </span>
+
+          <h1 class="nhsuk-heading-xl">Extranets <span style="vertical-align: middle;"><strong class="nhsuk-tag">Work in progress</strong></span></h1>
+
+          <div class="nhsuk-inset-text">
+            <span class="nhsuk-u-visually-hidden">Information: </span>
+            <p>We are working on this page. <br>The content will be released by August 29 2025.</p>
+          </div>
+
+          <p>This page lists and describes different templates you can use to design extranets.</p>
+
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  {% include "includes/footer.html" %}
+
+  {% include "includes/template-scripts.html" %}
+
+  <style>
+    
+  .app-pane {
+    display: -webkit-box;
+    display: -ms-flexbox; // sass-lint:disable-line no-duplicate-properties
+    display: flex; // sass-lint:disable-line no-duplicate-properties
+    min-height: 0;
+    overflow: inherit;
+    position: relative;
+  }
+
+  .app-pane__side-bar {
+    -ms-flex: 0 0 auto;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    width: 220px;
+
+    @include nhsuk-media-query($until: large-desktop) {
+      width: 200px;
+    }
+
+    @include nhsuk-media-query($until: desktop) {
+      display: none;
+    }
+  }
+
+  .app-pane__main-content {
+    -ms-flex: 1 1 100%; // sass-lint:disable-line no-duplicate-properties
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-flex: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    display: -ms-flexbox; // sass-lint:disable-line no-duplicate-properties
+    display: flex; // sass-lint:disable-line no-duplicate-properties
+    flex: 1 1 100%;
+    flex-direction: column;
+    min-width: 0;
+
+    @include nhsuk-media-query($from: desktop) {
+      padding-left: nhsuk-spacing(9);
+    }
+
+  }
+
+  // Custom spacing for page headings
+  @include nhsuk-media-query($until: tablet) {
+    .app-page-heading,
+    .app-lede-text,
+    .app-contents-list,
+    .app-lede-text--sub {
+      margin-bottom: nhsuk-spacing(5);
+    }
+
+    .app-contents-list .nhsuk-contents-list__list {
+      margin-bottom: 0;
+    }
+  }
+    
+  </style>
+
+</body>
+
+</html>

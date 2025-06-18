@@ -5,21 +5,27 @@
 -->
 
 <!-- Extends the prototype kit template which in turn extends the NHS.UK frontend template -->
+
 {% extends "prototype-kit-template.njk" %}
 
 {% block head %}
+
   <!-- Add your custom CSS or Sass in /app/assets/sass/main.scss -->
+
   <link href="/css/main.css" rel="stylesheet">
   <script src="/nhsuk-frontend/nhsuk.min.js" defer></script>
+
 {% endblock %}
 
 <!-- Set the page title -->
+
 {% block pageTitle %}
   NHS prototype kit
 {% endblock %}
 
 <!-- Edit the header -->
 <!-- Header code examples can be found at https://service-manual.nhs.uk/design-system/components/header -->
+
 {% block header %}
   {{ header({
     "service": {
@@ -32,8 +38,21 @@
   }}
 {% endblock %}
 
+{% from 'header/macro.njk' import header %}
+
+{{ header({
+  transactionalService: {
+      name: "Find your NHS number",
+      href: "https://www.nhs.uk/nhs-services/online-services/find-nhs-number/"
+    },
+    showNav: "false",
+    showSearch: "false"
+  })
+}}
+
 <!-- Edit the footer -->
 <!-- Footer code examples can be found at https://service-manual.nhs.uk/design-system/components/footer -->
+
 {% block footer %}
   {{ footer({
     "links": [
@@ -52,6 +71,7 @@
     ]
   })}}
 {% endblock %}
+
 
 {% block bodyEnd %}
   {% block scripts %}

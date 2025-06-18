@@ -1,0 +1,86 @@
+<html lang="en">
+
+{% include "includes/head.html" %}
+
+<body class="js-enabled">
+
+  {% include "includes/header.html" %}
+
+  <div class="nhsuk-width-container app-width-container">
+
+    <nav class="nhsuk-breadcrumb app-breadcrumb" aria-label="Breadcrumb">
+      <ol class="nhsuk-breadcrumb__list">        
+        <li class="nhsuk-breadcrumb__item">
+          <a class="nhsuk-breadcrumb__link" href="/">Home</a>
+        </li>    
+        <!--
+        <li class="nhsuk-breadcrumb__item">
+          <a class="nhsuk-breadcrumb__link" href="templates">Templates</a>
+        </li>
+        -->
+      </ol>
+      <p class="nhsuk-breadcrumb__back">
+        <a class="nhsuk-breadcrumb__backlink" href="/">
+          <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>Home
+        </a>
+      </p>
+    </nav>
+
+    <main class="nhsuk-main-wrapper nhsuk-main-wrapper--s app-main-wrapper" id="maincontent" role="main">
+
+      <div class="nhsuk-grid-row">
+
+        <!--
+
+        <div class="nhsuk-grid-column-one-third" style="width: 210px;">
+
+          <h2 style="font-size: 20px;font-weight: 700;line-height: 1.25;color: #4c6272;margin-bottom: 12px;padding-top: 8px;">Subsections</h2>
+
+          <ul class="nhsuk-list">
+            <li><a href="#" style="font-size: 1rem;color: #005eb8;">Header</a></li>
+            <li><a href="#" style="font-size: 1rem;color: #005eb8;">Body</a></li>
+            <li><a href="#" style="font-size: 1rem;color: #005eb8;">Footer</a></li>
+          </ul>
+
+        </div>
+
+        -->
+
+        <div class="nhsuk-grid-column-two-thirds">
+
+          <h1 class="nhsuk-heading-xl">Templates</h1>
+
+          <p class="nhsuk-lede-text app-lede-text" style="margin-bottom: 30px;">Use this template to keep your pages consistent with other NHS Wales services.</p>
+
+          <p>This page template combines boilerplate markup and <a href="components">components</a> needed for a content page and a transactional page. This includes:</p>
+
+          <ul>
+            <li>JavaScript that adds a js-enabled class, which components with JavaScript behaviour need</li>
+            <li>the skip link, <a href="components-header">header</a> and <a href="components-footer">footer</a> components</li>
+            <li>favicons, and other page metadata</li>
+          </ul>
+
+          <p class="nhsuk-u-margin-bottom-2"><strong>Available templates specific to NHS Wales:</strong></p>
+
+          <ul>
+            <li><a href="templates-websites" style="color: #005eb8;">Websites</a></li>
+            <li><a href="templates-applications" style="color: #005eb8;">Applications</a> &nbsp;<strong class="nhsuk-tag">Work in progress</strong></li>
+            <li><a href="templates-extranets" style="color: #005eb8;">Extranets</a> &nbsp;<strong class="nhsuk-tag">Work in progress</strong></li>
+            <li><a href="templates-intranets" style="color: #005eb8;">Intranets</a> &nbsp;<strong class="nhsuk-tag">Work in progress</strong></li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  {% include "includes/footer.html" %}
+
+  {% include "includes/template-scripts.html" %}
+
+</body>
+
+</html>

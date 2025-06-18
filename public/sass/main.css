@@ -14,3 +14,8 @@
 /* ==========================================================================
    #APP-PANE
    ========================================================================== */
+
+.side-nav-link {color:#005eb8;font-size: 2rem;}
+a.side-nav-link:link {color:#005eb8;font-size: 2rem;text-decoration:underline;}
+a.side-nav-link:visited {color:#330072;font-size: 2rem;text-decoration:underline;}
+a.side-nav-link:hover {tolor:#7C2855;font-size: 2rem;text-decoration:none;}

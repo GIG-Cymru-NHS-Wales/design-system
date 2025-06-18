@@ -1,0 +1,79 @@
+<html lang="en">
+
+{% include "includes/head.html" %}
+
+<body class="js-enabled">
+
+  {% include "includes/header.html" %}
+
+  <div class="nhsuk-width-container app-width-container">
+
+    <nav class="nhsuk-breadcrumb app-breadcrumb" aria-label="Breadcrumb">
+      <ol class="nhsuk-breadcrumb__list">        
+        <li class="nhsuk-breadcrumb__item">
+          <a class="nhsuk-breadcrumb__link" href="/">Home</a>
+        </li>    
+        <!--
+        <li class="nhsuk-breadcrumb__item">
+          <a class="nhsuk-breadcrumb__link" href="styles">Styles</a>
+        </li>
+        -->
+      </ol>
+      <p class="nhsuk-breadcrumb__back">
+        <a class="nhsuk-breadcrumb__backlink" href="/">
+          <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>Home
+        </a>
+      </p>
+    </nav>
+
+    <main class="nhsuk-main-wrapper nhsuk-main-wrapper--s app-main-wrapper" id="maincontent" role="main">
+
+      <div class="nhsuk-grid-row">
+
+        <!--
+
+        <div class="nhsuk-grid-column-one-third" style="width: 210px;">
+
+          <h2 style="font-size: 20px;font-weight: 700;line-height: 1.25;color: #4c6272;margin-bottom: 12px;padding-top: 8px;">Subsections</h2>
+
+          <ul class="nhsuk-list">
+            <li><a href="#" style="font-size: 1rem;color: #005eb8;">Header</a></li>
+            <li><a href="#" style="font-size: 1rem;color: #005eb8;">Body</a></li>
+            <li><a href="#" style="font-size: 1rem;color: #005eb8;">Footer</a></li>
+          </ul>
+
+        </div>
+
+        -->
+
+        <div class="nhsuk-grid-column-two-thirds">
+
+          <h1 class="nhsuk-heading-xl">Styles</h1>
+
+          <p class="nhsuk-lede-text app-lede-text" style="margin-bottom: 30px;">Make your service look like other NHS services with these tested styles.</p>
+
+          <p>If you are using the <a href="https://prototype-kit.service-manual.nhs.uk">NHS.UK prototype kit</a> or have the <a href="https://github.com/nhsuk/nhsuk-frontend">NHS.UK frontend library</a> included in your build, the coded examples in the service manual do not need any additional styling.</p>
+
+          <p class="nhsuk-u-margin-bottom-2"><strong>Available patterns specific to NHS Wales:</strong></p>
+
+          <ul>
+            <li><a href="styles-logo" style="color: #005eb8;">Logo</a></li>
+            <li><a href="styles-colour" style="color: #005eb8;">Colour palette</a></li>
+            <li><a href="styles-font" style="color: #005eb8;">Font</a></li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  {% include "includes/footer.html" %}
+
+  {% include "includes/template-scripts.html" %}
+
+</body>
+
+</html>
