@@ -28,7 +28,7 @@
 
       <div class="nhsuk-grid-row">
 
-        <div class="nhsuk-grid-column-full">
+        <div class="nhsuk-grid-column-two-thirds">
 
           <span class="nhsuk-caption-xl">Styles
             <span class="nhsuk-u-visually-hidden"> - </span>
@@ -36,12 +36,41 @@
 
           <h1 class="nhsuk-heading-xl">Logo</h1>
 
-          <div class="nhsuk-inset-text">
-            <span class="nhsuk-u-visually-hidden">Information: </span>
-            <p>We are working on this page. <br>The content will be released by August 29 2025.</p>
-          </div>
+          <p class="nhsuk-lede-text app-lede-text" style="margin-bottom: 30px;">Our Logo and how to apply it.</p>
 
-          <p>This page lists and describes different logos you can use to design digital services.</p>
+          <p>NHS Wales has its own brand, which differs from that of NHS England.</p>
+
+          <p>Our brand has different logos in both English and Welsh simultaneously as part of Welsh government regulations.</p>
+
+          <p>The NHS Wales Logo Guidelines dictate how the logo must appear on digital platforms, including websites, applications, intranets, and extranets.</p>
+
+          <p>NHS Wales logos are displayed in white on blue headers. </p>
+
+          <p>No logo is required in footers.</p>
+
+          <p>Below is the different versions of the logo for headers.</p>
+
+          <h4 id="NHS-default-header">Generic logo</h4>
+
+          <img src="/images/styles-logo-example-1.png" alt="Header example 4" width="800;">
+
+          <br><br>
+
+          <p><a href="styles-logo-example-1" style="color: #005eb8;">Open example in a new tab</a></p>
+
+          <h4 id="NHS-default-header">Generic logo with organisation name</h4>
+
+          <img src="/images/styles-logo-example-2.png" alt="Header example 4" width="800;">
+
+          <br><br>
+
+          <p><a href="styles-logo-example-2" style="color: #005eb8;">Open example in a new tab</a></p>
+
+          <h4 id="NHS-default-header">Other logos</h4>
+
+          <p>We will be updating this page with other logo options under request: Email the service manual team on <a href="mailto:wales.design-system@wales.nhs.uk" style="color: #005eb8;">wales.design-system@wales.nhs.uk</a>.</p>
+
+          <p>View <a href="https://heiw.nhs.wales/files/nhs-wales-branding-guidelines-eng/" target="blank" style="color: #005eb8;">NHS Wales Logo Guidelines</a> to find out how to use the logo.</p>
 
         </div>
 
@@ -54,67 +83,6 @@
   {% include "includes/footer.html" %}
 
   {% include "includes/template-scripts.html" %}
-
-  <style>
-    
-  .app-pane {
-    display: -webkit-box;
-    display: -ms-flexbox; // sass-lint:disable-line no-duplicate-properties
-    display: flex; // sass-lint:disable-line no-duplicate-properties
-    min-height: 0;
-    overflow: inherit;
-    position: relative;
-  }
-
-  .app-pane__side-bar {
-    -ms-flex: 0 0 auto;
-    -webkit-box-flex: 0;
-    flex: 0 0 auto;
-    width: 220px;
-
-    @include nhsuk-media-query($until: large-desktop) {
-      width: 200px;
-    }
-
-    @include nhsuk-media-query($until: desktop) {
-      display: none;
-    }
-  }
-
-  .app-pane__main-content {
-    -ms-flex: 1 1 100%; // sass-lint:disable-line no-duplicate-properties
-    -ms-flex-direction: column;
-    -webkit-box-direction: normal;
-    -webkit-box-flex: 1;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-    display: -ms-flexbox; // sass-lint:disable-line no-duplicate-properties
-    display: flex; // sass-lint:disable-line no-duplicate-properties
-    flex: 1 1 100%;
-    flex-direction: column;
-    min-width: 0;
-
-    @include nhsuk-media-query($from: desktop) {
-      padding-left: nhsuk-spacing(9);
-    }
-
-  }
-
-  // Custom spacing for page headings
-  @include nhsuk-media-query($until: tablet) {
-    .app-page-heading,
-    .app-lede-text,
-    .app-contents-list,
-    .app-lede-text--sub {
-      margin-bottom: nhsuk-spacing(5);
-    }
-
-    .app-contents-list .nhsuk-contents-list__list {
-      margin-bottom: 0;
-    }
-  }
-    
-  </style>
 
 </body>
 

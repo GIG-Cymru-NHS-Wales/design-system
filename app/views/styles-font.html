@@ -28,7 +28,7 @@
 
       <div class="nhsuk-grid-row">
 
-        <div class="nhsuk-grid-column-full">
+        <div class="nhsuk-grid-column-two-thirds">
 
           <span class="nhsuk-caption-xl">Styles
             <span class="nhsuk-u-visually-hidden"> - </span>
@@ -36,12 +36,17 @@
 
           <h1 class="nhsuk-heading-xl">Font</h1>
 
-          <div class="nhsuk-inset-text">
-            <span class="nhsuk-u-visually-hidden">Information: </span>
-            <p>We are working on this page. <br>The content will be released by August 29 2025.</p>
-          </div>
+          <p class="nhsuk-lede-text app-lede-text" style="margin-bottom: 30px;">Our fonts and typographic styles, and how to apply them.</p>
 
-          <p>This page lists and describes different fonts you can use to design digital services.</p>
+          <h4 id="NHS-default-header">Frutiger</h4>
+
+          <p>Frutiger is the brand font for the NHS. NHS Wales has a licence for 3 weights of the font which NHS organisations in Wales can sign up to use.</p>
+
+          <p>Use Arial when Frutiger isn't available.</p>
+
+          <p class="rich-text"><code>font-family: “Frutiger W01”, Arial, sans-serif;</code></p>
+
+          <p>Visit <a href="https://service-manual.nhs.uk/design-system/styles/typography" target="blank" style="color: #005eb8;">NHS Design System</a> to find out how to use the font and typographic styles.</p>
 
         </div>
 
@@ -54,67 +59,6 @@
   {% include "includes/footer.html" %}
 
   {% include "includes/template-scripts.html" %}
-
-  <style>
-    
-  .app-pane {
-    display: -webkit-box;
-    display: -ms-flexbox; // sass-lint:disable-line no-duplicate-properties
-    display: flex; // sass-lint:disable-line no-duplicate-properties
-    min-height: 0;
-    overflow: inherit;
-    position: relative;
-  }
-
-  .app-pane__side-bar {
-    -ms-flex: 0 0 auto;
-    -webkit-box-flex: 0;
-    flex: 0 0 auto;
-    width: 220px;
-
-    @include nhsuk-media-query($until: large-desktop) {
-      width: 200px;
-    }
-
-    @include nhsuk-media-query($until: desktop) {
-      display: none;
-    }
-  }
-
-  .app-pane__main-content {
-    -ms-flex: 1 1 100%; // sass-lint:disable-line no-duplicate-properties
-    -ms-flex-direction: column;
-    -webkit-box-direction: normal;
-    -webkit-box-flex: 1;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-    display: -ms-flexbox; // sass-lint:disable-line no-duplicate-properties
-    display: flex; // sass-lint:disable-line no-duplicate-properties
-    flex: 1 1 100%;
-    flex-direction: column;
-    min-width: 0;
-
-    @include nhsuk-media-query($from: desktop) {
-      padding-left: nhsuk-spacing(9);
-    }
-
-  }
-
-  // Custom spacing for page headings
-  @include nhsuk-media-query($until: tablet) {
-    .app-page-heading,
-    .app-lede-text,
-    .app-contents-list,
-    .app-lede-text--sub {
-      margin-bottom: nhsuk-spacing(5);
-    }
-
-    .app-contents-list .nhsuk-contents-list__list {
-      margin-bottom: 0;
-    }
-  }
-    
-  </style>
 
 </body>
 

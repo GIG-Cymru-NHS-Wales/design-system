@@ -34,7 +34,7 @@
             <span class="nhsuk-u-visually-hidden"> - </span>
           </span>
 
-          <h1 class="nhsuk-heading-xl">Websites <span style="vertical-align: middle;"><strong class="nhsuk-tag">Work in progress</strong></span></h1>
+          <h1 class="nhsuk-heading-xl">Websites <span style="vertical-align: middle;"></h1>
 
           <p class="nhsuk-lede-text app-lede-text" style="margin-bottom: 30px;">Use this template to keep your pages consistent with other NHS Wales services.</p>
 
@@ -42,25 +42,43 @@
 
           <p>This example shows the minimum required for an NHS Wales service.</p>
 
-          /////////////////
+          <img src="/images/templates-websites-example-1.png" alt="Website example 1" width="960;">
 
           <br><br>
+
+          <p><a href="templates-websites-example-1" style="color: #005eb8;">Open example in a new tab</a></p>
+
+          <br>
 
           <h4 id="NHS-default-header">NHS Wales transactional page template</h4>
 
           <p>The transactional page template example uses the transactional service header and a back link component.</p>
 
-          /////////////////
+          <img src="/images/templates-websites-example-2.png" alt="Website example 2" width="960;">
 
           <br><br>
+
+          <p><a href="templates-websites-example-2" style="color: #005eb8;">Open example in a new tab</a></p>
+
+          <br>
 
           <h4 id="NHS-default-header">NHS Wales content page template</h4>
 
           <p>The content page template example includes navigation and search in the header and a breadcrumbs component.</p>
 
-          /////////////////
+          <img src="/images/templates-websites-example-3.png" alt="Website example 3" width="960;">
 
           <br><br>
+
+          <p><a href="templates-websites-example-3" style="color: #005eb8;">Open example in a new tab</a></p>
+
+          <br>
+
+          <h4 id="NHS-default-header">How to use the website pages templates</h4>
+
+          <p>Visit <a href="https://service-manual.nhs.uk/design-system/styles/page-template" target="blank">NHS Design System</a> to find out how to use the website page templates.</p>
+
+          <br>
 
         </div>
 
@@ -73,67 +91,6 @@
   {% include "includes/footer.html" %}
 
   {% include "includes/template-scripts.html" %}
-
-  <style>
-    
-  .app-pane {
-    display: -webkit-box;
-    display: -ms-flexbox; // sass-lint:disable-line no-duplicate-properties
-    display: flex; // sass-lint:disable-line no-duplicate-properties
-    min-height: 0;
-    overflow: inherit;
-    position: relative;
-  }
-
-  .app-pane__side-bar {
-    -ms-flex: 0 0 auto;
-    -webkit-box-flex: 0;
-    flex: 0 0 auto;
-    width: 220px;
-
-    @include nhsuk-media-query($until: large-desktop) {
-      width: 200px;
-    }
-
-    @include nhsuk-media-query($until: desktop) {
-      display: none;
-    }
-  }
-
-  .app-pane__main-content {
-    -ms-flex: 1 1 100%; // sass-lint:disable-line no-duplicate-properties
-    -ms-flex-direction: column;
-    -webkit-box-direction: normal;
-    -webkit-box-flex: 1;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-    display: -ms-flexbox; // sass-lint:disable-line no-duplicate-properties
-    display: flex; // sass-lint:disable-line no-duplicate-properties
-    flex: 1 1 100%;
-    flex-direction: column;
-    min-width: 0;
-
-    @include nhsuk-media-query($from: desktop) {
-      padding-left: nhsuk-spacing(9);
-    }
-
-  }
-
-  // Custom spacing for page headings
-  @include nhsuk-media-query($until: tablet) {
-    .app-page-heading,
-    .app-lede-text,
-    .app-contents-list,
-    .app-lede-text--sub {
-      margin-bottom: nhsuk-spacing(5);
-    }
-
-    .app-contents-list .nhsuk-contents-list__list {
-      margin-bottom: 0;
-    }
-  }
-    
-  </style>
 
 </body>
 

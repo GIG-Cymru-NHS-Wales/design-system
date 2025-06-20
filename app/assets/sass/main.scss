@@ -8,9 +8,12 @@
 ///////////////////////////////////////////
 // Add your custom CSS/Sass styles below...
 ///////////////////////////////////////////
-  
-@use '../vendor/nhsuk-frontend' as *;
 
-/* ==========================================================================
-   #APP-PANE
-   ========================================================================== */
+.nhsuk-tag-new {
+  width: 32;
+  height: 18;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+  padding: 2px;
+}
