@@ -1,6 +1,6 @@
 # DHCW Figma Design System
 
-Use the <a href="https://www.figma.com/design/SbLLqxBGF8Tree8yEgevJp/DHCW-Design-System?node-id=0-1&t=g3HhjcpVnW8NEeFy-1" target="blank"DHCW Design System in Figma </a> to access a library of design assets that support you to create and test working prototypes.
+Use the <a href="https://www.figma.com/design/SbLLqxBGF8Tree8yEgevJp/DHCW-Design-System?node-id=0-1&t=g3HhjcpVnW8NEeFy-1" target="blank">DHCW Design System in Figma </a> to access a library of design assets that support you to create and test working prototypes.
 
 The library contains both <strong>styles</strong> and <strong>components</strong>:
 
