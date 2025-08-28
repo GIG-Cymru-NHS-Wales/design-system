@@ -1,7 +1,7 @@
 
-<script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' nhsuk-frontend-supported' : '');</script>
   
-  <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
+  <a class="nhsuk-skip-link" href="#maincontent" data-module="nhsuk-skip-link" data-nhsuk-skip-link-init="">Skip to main content</a>
 
   <header class="nhsuk-header app-header__container" role="banner" style="background-color: #004e8c;">
 

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://service-manual.nhs.uk/stylesheets/main.9ba4ae0.min.css"> 
     <script src="https://service-manual.nhs.uk/javascripts/main.1ffb5b9.min.js" defer=""></script>
     <script src="https://assets.adobedtm.com/launch-ENe7f6cdd7cc05409b86547d9153429788.min.js" type="text/plain" data-cookieconsent="statistics" async></script>
-    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+   <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' nhsuk-frontend-supported' : '');</script>
   </head>
 
   <body style="margin: auto;background: #004e8c;">

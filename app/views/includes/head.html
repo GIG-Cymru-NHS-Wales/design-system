@@ -49,6 +49,6 @@
     <script src="https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js" async=""></script>
     <script src="https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js" async=""></script>
     <script src="https://assets.adobedtm.com/f8560165ec6a/5d3b7fb65898/185ff9c8e203/RC6207ea153dc349158fb6137b0fcd4ee1-source.min.js" async=""></script>
-    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' nhsuk-frontend-supported' : '');</script>
     
 </head>
